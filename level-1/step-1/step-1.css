@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    background-color: #D8D8D8; 
 }
 
 .header {
@@ -8,12 +9,16 @@ body {
     background: #D8D8D8;
 }
 
+.main-section {
+    height: 100%;
+}
+
 /* I would suggest using float to get this container in its desired location. */
 
 .content-left {
     width: 34%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 80%;
+    height: 500px;
     background: #565555;
     float: left;
 }
@@ -24,8 +29,9 @@ body {
 .content-mid {
     width: 66%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 80%;
+    height: 500px;
     background: #B0B0B0;
+    float: left;
 
 }
 
